@@ -17,7 +17,6 @@ Golang (Go) installed. Find the [Download Go](https://golang.org/) link on the G
 
     ```
     $ go get -u github.com/andlabs/ui
-
     ```
 
 3. Dependencies: if the previous command results in something like:
@@ -37,10 +36,8 @@ Golang (Go) installed. Find the [Download Go](https://golang.org/) link on the G
 
     Try the installation again (which may require installing more dependencies):
 
-        ```
         $ go get -u github.com/andlabs/ui
         $
-        ```
 
 ## Running
 
