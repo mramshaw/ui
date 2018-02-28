@@ -2,6 +2,8 @@
 
 [Just a mickey-mouse demo I wrote up for the Golang 'Code and Chat' Meetup.]
 
+Find the code, etc. for `andlabs/ui` at this [link](https://github.com/andlabs/ui).
+
 There is a nice [Getting Started](https://github.com/andlabs/ui/wiki/Getting-Started) page.
 Be sure to read this, as it is pretty good.
 
@@ -68,5 +70,5 @@ Close the window to terminate.
 ## To Do
 
 * [ ] Figure what makes a box element ___stretchy___
-* [ ] Figure out how to get the selected items text from a __combobox__
+* [x] Figure out how to get the selected items text from a __combobox__
 * [ ] Figure out how to get the selected items text from a __radiobox__
