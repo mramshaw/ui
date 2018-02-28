@@ -15,7 +15,10 @@ Golang (Go) installed. Find the [Download Go](https://golang.org/) link on the G
 
 2. Download the latest version:
 
-    go get -u github.com/andlabs/ui
+    ```
+    $ go get -u github.com/andlabs/ui
+
+    ```
 
 3. Dependencies: if the previous command results in something like:
 
@@ -30,12 +33,14 @@ Golang (Go) installed. Find the [Download Go](https://golang.org/) link on the G
     $
     ```
 
-Then install any missing dependencies (`lib-gtk-3-dev` plus extras in my case).
+    Then install any missing dependencies (`lib-gtk-3-dev` plus extras in my case).
 
-Try the installation again (which may require installing more dependencies):
+    Try the installation again (which may require installing more dependencies):
 
-    $ go get -u github.com/andlabs/ui
-    $
+        ```
+        $ go get -u github.com/andlabs/ui
+        $
+        ```
 
 ## Running
 
