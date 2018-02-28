@@ -8,9 +8,9 @@ func main() {
 	err := ui.Main(func() {
 		box := ui.NewVerticalBox()
 		rb := ui.NewRadioButtons()
-        rb.Append("Line 1")
-        rb.Append("Line 2")
-        rb.Append("Line 3")
+		rb.Append("Line 1")
+		rb.Append("Line 2")
+		rb.Append("Line 3")
 		box.Append(rb, false)
 		button := ui.NewButton("Greet")
 		box.Append(button, false)
@@ -20,8 +20,8 @@ func main() {
 		window.SetMargined(true)
 		window.SetChild(box)
 		button.OnClicked(func(*ui.Button) {
-        // Does not seem to be any way to get Values from a Radiobox
-		//	greeting.SetText("Hello, " + rb.Text() + "!")
+			// Does not seem to be any way to get Values from a Radiobox
+			//	greeting.SetText("Hello, " + rb.Text() + "!")
 		})
 		window.OnClosing(func(*ui.Window) bool {
 			ui.Quit()
