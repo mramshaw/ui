@@ -11,18 +11,15 @@ Golang (Go) installed. Find the [Download Go](https://golang.org/) link on the G
 
 ## Installation
 
-1. Verify that you are on a supported platform:
-
-    https://github.com/andlabs/ui#update-5-june-2016-you-can-finally-go-get-this-package
-
-[Looks like OS/X, linux and Windows are supported.]
+1. Verify that you are on a [supported platform](https://github.com/andlabs/ui#update-5-june-2016-you-can-finally-go-get-this-package). It looks like __OS/X__, __linux__ and __Windows__ are supported.
 
 2. Download the latest version:
 
     go get -u github.com/andlabs/ui
 
-3. Dependencies: if the previous comnmand results in something like:
+3. Dependencies: if the previous command results in something like:
 
+    ```
     $ go get -u github.com/andlabs/ui
     # pkg-config --cflags gtk+-3.0
     Package gtk+-3.0 was not found in the pkg-config search path.
@@ -31,17 +28,18 @@ Golang (Go) installed. Find the [Download Go](https://golang.org/) link on the G
     No package 'gtk+-3.0' found
     pkg-config: exit status 1
     $
+    ```
 
 Then install any missing dependencies (`lib-gtk-3-dev` plus extras in my case).
 
-Try the installation again (which may require installing more depenencies):
+Try the installation again (which may require installing more dependencies):
 
     $ go get -u github.com/andlabs/ui
     $
 
 ## Running
 
-To simply run the example (i.e. no _build_):
+To simply run the example (i.e. no ___build___):
 
     $ go run main.go
 
