@@ -1,5 +1,9 @@
 # andlabs / ui
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/mramshaw/ui?style=flat-square)](https://goreportcard.com/report/github.com/mramshaw/ui)
+[![GoDoc](https://godoc.org/github.com/mramshaw/ui?status.svg)](https://godoc.org/github.com/mramshaw/ui)
+[![GitHub release](https://img.shields.io/github/release/mramshaw/ui.svg?style=flat-square)](https://github.com/mramshaw/ui/releases)
+
 [Just a mickey-mouse demo I wrote up for the Golang 'Code and Chat' Meetup.]
 
 Find the code, etc. for `andlabs/ui` at this [link](https://github.com/andlabs/ui).
