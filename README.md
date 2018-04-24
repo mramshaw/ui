@@ -59,7 +59,7 @@ Close the window to terminate.
 
 To build the example:
 
-    $ go run main.go
+    $ go build main.go
 
 This should produce a binary: `main`
 
